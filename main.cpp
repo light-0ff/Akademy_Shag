@@ -546,7 +546,6 @@ int maxValueIn(double Arr[ROWS][COLS], const int ROWS, const int COLS)
 /////////
 void sort(int Arr[ROWS][COLS], const int ROWS, const int COLS)
 {
-	int count = 0;
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
@@ -566,12 +565,10 @@ void sort(int Arr[ROWS][COLS], const int ROWS, const int COLS)
 						Arr[x][y] = Arr[i][j];
 						Arr[i][j] = buffer;
 					}
-					count++;
 				}
 			}
 		}
 	}
-	cout << "Итерации: " << count << endl;
 }
 void sort(float Arr[ROWS][COLS], const int ROWS, const int COLS)
 {
@@ -586,11 +583,11 @@ void sort(float Arr[ROWS][COLS], const int ROWS, const int COLS)
 					if (i == x and j >= y)
 					{
 						y = j + 1;
-						if (y == COLS) y = COLS - 1;
+						if (y == COLS) break;
 					}
 					if (Arr[i][j] > Arr[x][y])
 					{
-						float buffer = Arr[x][y];
+						int buffer = Arr[x][y];
 						Arr[x][y] = Arr[i][j];
 						Arr[i][j] = buffer;
 					}
@@ -612,11 +609,11 @@ void sort(double Arr[ROWS][COLS], const int ROWS, const int COLS)
 					if (i == x and j >= y)
 					{
 						y = j + 1;
-						if (y == COLS) y = COLS - 1;
+						if (y == COLS) break;
 					}
 					if (Arr[i][j] > Arr[x][y])
 					{
-						double buffer = Arr[x][y];
+						int buffer = Arr[x][y];
 						Arr[x][y] = Arr[i][j];
 						Arr[i][j] = buffer;
 					}
