@@ -73,44 +73,44 @@ void main()
 
 	FillRand(Arr, ROWS, COLS);
 	Print(Arr, ROWS, COLS);
-	cout << "Сумма: " << sum(Arr, ROWS, COLS) << endl;
-	cout << "Среднее арифметическое: " << avg(Arr, ROWS, COLS) << endl;
-	cout << "Минимальное значение: " << minValueIn(Arr, ROWS, COLS) << endl;
-	cout << "Максимальное значение: " << maxValueIn(Arr, ROWS, COLS) << endl;
+	cout << "Г‘ГіГ¬Г¬Г : " << sum(Arr, ROWS, COLS) << endl;
+	cout << "Г‘Г°ГҐГ¤Г­ГҐГҐ Г Г°ГЁГґГ¬ГҐГІГЁГ·ГҐГ±ГЄГ®ГҐ: " << avg(Arr, ROWS, COLS) << endl;
+	cout << "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ: " << minValueIn(Arr, ROWS, COLS) << endl;
+	cout << "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ: " << maxValueIn(Arr, ROWS, COLS) << endl;
 
 	sort(Arr, ROWS, COLS);
-	cout << "Отсортированый массив" << endl;
+	cout << "ГЋГІГ±Г®Г°ГІГЁГ°Г®ГўГ Г­Г»Г© Г¬Г Г±Г±ГЁГў" << endl;
 	Print(Arr, ROWS, COLS);
 
 	cout << "== Float ==========================" << endl;
 	float Flot[ROWS][COLS];
 	FillRand(Flot, ROWS, COLS);
 	Print(Flot, ROWS, COLS);
-	cout << "Сумма: " << sum(Flot, ROWS, COLS) << endl;
-	cout << "Среднее арифметическое: " << avg(Flot, ROWS, COLS) << endl;
-	cout << "Минимальное значение: " << minValueIn(Flot, ROWS, COLS) << endl;
-	cout << "Максимальное значение: " << maxValueIn(Flot, ROWS, COLS) << endl;
+	cout << "Г‘ГіГ¬Г¬Г : " << sum(Flot, ROWS, COLS) << endl;
+	cout << "Г‘Г°ГҐГ¤Г­ГҐГҐ Г Г°ГЁГґГ¬ГҐГІГЁГ·ГҐГ±ГЄГ®ГҐ: " << avg(Flot, ROWS, COLS) << endl;
+	cout << "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ: " << minValueIn(Flot, ROWS, COLS) << endl;
+	cout << "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ: " << maxValueIn(Flot, ROWS, COLS) << endl;
 	sort(Flot, ROWS, COLS);
-	cout << "Отсортированый массив" << endl;
+	cout << "ГЋГІГ±Г®Г°ГІГЁГ°Г®ГўГ Г­Г»Г© Г¬Г Г±Г±ГЁГў" << endl;
 	Print(Flot, ROWS, COLS);
 
 	cout << "== Double =========================" << endl;
 	double Doub[ROWS][COLS];
 	FillRand(Doub, ROWS, COLS);
 	Print(Doub, ROWS, COLS);
-	cout << "Сумма: " << sum(Doub, ROWS, COLS) << endl;
-	cout << "Среднее арифметическое: " << avg(Doub, ROWS, COLS) << endl;
-	cout << "Минимальное значение: " << minValueIn(Doub, ROWS, COLS) << endl;
-	cout << "Максимальное значение: " << maxValueIn(Doub, ROWS, COLS) << endl;
+	cout << "Г‘ГіГ¬Г¬Г : " << sum(Doub, ROWS, COLS) << endl;
+	cout << "Г‘Г°ГҐГ¤Г­ГҐГҐ Г Г°ГЁГґГ¬ГҐГІГЁГ·ГҐГ±ГЄГ®ГҐ: " << avg(Doub, ROWS, COLS) << endl;
+	cout << "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ: " << minValueIn(Doub, ROWS, COLS) << endl;
+	cout << "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ: " << maxValueIn(Doub, ROWS, COLS) << endl;
 	sort(Doub, ROWS, COLS);
-	cout << "Отсортированый массив" << endl;
+	cout << "ГЋГІГ±Г®Г°ГІГЁГ°Г®ГўГ Г­Г»Г© Г¬Г Г±Г±ГЁГў" << endl;
 	Print(Doub, ROWS, COLS);
 
 }
 ///////////////////////////////////////////////////////
 void Print(int Arr[], const int n)
 {
-	//вывод массива на экран
+	//ГўГ»ГўГ®Г¤ Г¬Г Г±Г±ГЁГўГ  Г­Г  ГЅГЄГ°Г Г­
 	for (int i = 0; i < n; i++)
 	{
 		cout << Arr[i] << "\t";
@@ -119,7 +119,7 @@ void Print(int Arr[], const int n)
 }
 void Print(float Arr[], const int n)
 {
-	//вывод массива на экран
+	//ГўГ»ГўГ®Г¤ Г¬Г Г±Г±ГЁГўГ  Г­Г  ГЅГЄГ°Г Г­
 	for (int i = 0; i < n; i++)
 	{
 		cout << Arr[i] << "\t";
@@ -128,7 +128,7 @@ void Print(float Arr[], const int n)
 }
 void Print(double Arr[], const int n)
 {
-	//вывод массива на экран
+	//ГўГ»ГўГ®Г¤ Г¬Г Г±Г±ГЁГўГ  Г­Г  ГЅГЄГ°Г Г­
 	for (int i = 0; i < n; i++)
 	{
 		cout << Arr[i] << "\t";
@@ -137,7 +137,7 @@ void Print(double Arr[], const int n)
 }
 void Print(char Arr[], const int n)
 {
-	//вывод массива на экран
+	//ГўГ»ГўГ®Г¤ Г¬Г Г±Г±ГЁГўГ  Г­Г  ГЅГЄГ°Г Г­
 	for (int i = 0; i < n; i++)
 	{
 		cout << Arr[i] << "\t";
@@ -299,7 +299,7 @@ char maxValueIn(char Arr[], const int n)
 /////////////////////////////////////////////
 void ShiftRight(int Arr[], int Mas[], const int n, int m)
 {
-	cout << "сдвиг вправо" << endl;
+	cout << "Г±Г¤ГўГЁГЈ ГўГЇГ°Г ГўГ®" << endl;
 	for (int i = 0; i < n - m; i++)
 	{
 		Mas[i] = Arr[m + i];
@@ -311,7 +311,7 @@ void ShiftRight(int Arr[], int Mas[], const int n, int m)
 }
 void ShiftLeft(int Arr[], int Mas[], const int n, int m)
 {
-	cout << "сдвиг влево" << endl;
+	cout << "Г±Г¤ГўГЁГЈ ГўГ«ГҐГўГ®" << endl;
 	for (int i = 0; i < m; i++) // 0 -> 5 - n - 1
 	{
 		Mas[i] = Arr[n - m + i];
@@ -364,7 +364,7 @@ void FillRand(double Arr[ROWS][COLS], const int ROWS, const int COLS)
 ///////
 void Print(int Arr[ROWS][COLS], const int ROWS, const int COLS)
 {
-	//вывод массива на экран
+	//ГўГ»ГўГ®Г¤ Г¬Г Г±Г±ГЁГўГ  Г­Г  ГЅГЄГ°Г Г­
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
@@ -377,7 +377,7 @@ void Print(int Arr[ROWS][COLS], const int ROWS, const int COLS)
 }
 void Print(float Arr[ROWS][COLS], const int ROWS, const int COLS)
 {
-	//вывод массива на экран
+	//ГўГ»ГўГ®Г¤ Г¬Г Г±Г±ГЁГўГ  Г­Г  ГЅГЄГ°Г Г­
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
@@ -390,7 +390,7 @@ void Print(float Arr[ROWS][COLS], const int ROWS, const int COLS)
 }
 void Print(double Arr[ROWS][COLS], const int ROWS, const int COLS)
 {
-	//вывод массива на экран
+	//ГўГ»ГўГ®Г¤ Г¬Г Г±Г±ГЁГўГ  Г­Г  ГЅГЄГ°Г Г­
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
@@ -587,7 +587,7 @@ void sort(float Arr[ROWS][COLS], const int ROWS, const int COLS)
 					}
 					if (Arr[i][j] > Arr[x][y])
 					{
-						float buffer = Arr[x][y];
+						int buffer = Arr[x][y];
 						Arr[x][y] = Arr[i][j];
 						Arr[i][j] = buffer;
 					}
@@ -595,6 +595,7 @@ void sort(float Arr[ROWS][COLS], const int ROWS, const int COLS)
 			}
 		}
 	}
+	
 }
 void sort(double Arr[ROWS][COLS], const int ROWS, const int COLS)
 {
@@ -613,7 +614,7 @@ void sort(double Arr[ROWS][COLS], const int ROWS, const int COLS)
 					}
 					if (Arr[i][j] > Arr[x][y])
 					{
-						double buffer = Arr[x][y];
+						int buffer = Arr[x][y];
 						Arr[x][y] = Arr[i][j];
 						Arr[i][j] = buffer;
 					}
@@ -649,6 +650,6 @@ count++;
 }
 }
 }
-cout <<"Итерации: " << count << endl;
+cout <<"Г€ГІГҐГ°Г Г¶ГЁГЁ: " << count << endl;
 }
 */
