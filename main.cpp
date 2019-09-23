@@ -587,7 +587,7 @@ void sort(float Arr[ROWS][COLS], const int ROWS, const int COLS)
 					}
 					if (Arr[i][j] > Arr[x][y])
 					{
-						int buffer = Arr[x][y];
+						float buffer = Arr[x][y];
 						Arr[x][y] = Arr[i][j];
 						Arr[i][j] = buffer;
 					}
@@ -613,7 +613,7 @@ void sort(double Arr[ROWS][COLS], const int ROWS, const int COLS)
 					}
 					if (Arr[i][j] > Arr[x][y])
 					{
-						int buffer = Arr[x][y];
+						double buffer = Arr[x][y];
 						Arr[x][y] = Arr[i][j];
 						Arr[i][j] = buffer;
 					}
